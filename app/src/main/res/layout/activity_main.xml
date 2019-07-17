@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1245a8"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:fontFamily="@font/roboto_bold" />
+
+    <TextView
+        android:id="@+id/welcome_alc_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Welcome to ALC 4.0"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:fontFamily="@font/aclonica" />
+
+    <Button
+        android:id="@+id/about_alc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="84dp"
+        android:background="#ffa800"
+        android:onClick="onAboutAlc"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="About ALC"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        app:fontFamily="@font/aclonica" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:background="#ffa500"
+        app:fontFamily="@font/aclonica"
+        android:onClick="onMyProfile"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="my profile"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+</LinearLayout>
